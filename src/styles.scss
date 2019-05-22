@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+$color-lgs : #8627FF;
+$color-lgs-light : lighten($color-lgs, 10%);
+$color-lgs-dark : darken($color-lgs, 10%);
+
+.bg-lgs {
+  background-color: $color-lgs;
+}
+
+.text-lgs {
+  color: $color-lgs;
+}
