@@ -18,9 +18,9 @@ import { CoursesService } from './course/courses.service';
 })
 
 export class CoursesComponent {
-    title = "List of courses";
+    title = 'List of courses';
     courses;
-    toggle: number = 0;
+    toggle = 0;
     filter;
     input2 = 'blank';
     getTitle() {
